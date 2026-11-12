@@ -19,8 +19,8 @@
     .cards{display:grid;gap:14px}.habit-card{background:var(--paper);border:1px solid var(--line);border-radius:21px;padding:19px 20px 18px;box-shadow:var(--shadow)}.card-head{display:flex;justify-content:space-between;align-items:flex-start;gap:14px}.habit-name{font-size:18px;font-weight:760;line-height:1.3;overflow-wrap:anywhere}.delete-button{min-height:44px;padding:8px 12px;border:1px solid #eed9ce;border-radius:12px;background:#fffaf7;color:#8a4f39;font-size:13px;font-weight:700;white-space:nowrap}.delete-button.armed{background:#944c35;color:white;border-color:#944c35}.today-row{display:flex;align-items:center;gap:14px;margin:16px 0}.check-button{width:54px;height:54px;flex:none;border:2px solid #c8d4c8;border-radius:50%;background:#fff;color:transparent;display:grid;place-items:center;font-size:26px;line-height:1;transition:transform .12s,background .12s,border-color .12s}.check-button:hover{transform:scale(1.04);border-color:var(--green)}.check-button.done{background:var(--green);border-color:var(--green);color:white}.today-copy strong{display:block;font-size:15px}.today-copy span{font-size:13px;color:var(--muted)}
     .stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px;margin:13px 0 16px}.stat{background:#f4f6f0;border-radius:13px;padding:10px 11px;min-width:0}.stat span{display:block;font-size:11px;color:var(--muted);white-space:nowrap}.stat strong{display:block;font-size:18px;letter-spacing:-.03em;margin-top:2px}.goal{margin:0 0 16px}.goal-line{display:flex;justify-content:space-between;font-size:12px;color:var(--muted);margin-bottom:6px}.goal-line strong{color:var(--green-dark)}.progress{height:7px;background:#e9eee6;border-radius:99px;overflow:hidden}.progress i{height:100%;display:block;background:linear-gradient(90deg,#76a977,#2b6c57);border-radius:inherit;transition:width .2s}
     .calendar-head{display:flex;justify-content:space-between;align-items:center;gap:12px;margin:14px 0 9px}.calendar-head strong{font-size:13px}.calendar-head span{font-size:11px;color:var(--muted)}.weekdays{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:5px;margin-bottom:5px}.calendar{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:5px}.weekday{text-align:center;font-size:10px;color:#829087;padding:0 0 3px;font-weight:700}.day{aspect-ratio:1;min-width:0;border:1px solid transparent;border-radius:10px;background:#f1f3ee;color:#9aa49d;display:grid;place-items:center;font-size:12px;position:relative;padding:0}.day.checked{background:#cfe4cf;color:#245a43;font-weight:800}.day.today{border:2px solid #e0a833;color:var(--ink);font-weight:800}.day.today.checked{background:#9ac49c;color:#173f31}.day:disabled{cursor:default;opacity:.48}.day.empty{visibility:hidden}.day-label{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
-    .empty-state,.privacy{background:var(--paper);border:1px solid var(--line);border-radius:18px;padding:22px;text-align:center;color:var(--muted)}.empty-state strong{display:block;color:var(--ink);font-size:16px;margin-bottom:4px}.empty-state p{font-size:13px;margin:0}.manage{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:9px}.manage input{min-height:48px;min-width:0;border:1px solid #d9e1d8;border-radius:13px;padding:0 14px;background:#fffefa;color:var(--ink)}.primary-button{min-height:48px;padding:10px 18px;border:0;border-radius:13px;background:var(--green);color:white;font-weight:750}.primary-button:hover{background:var(--green-dark)}.message{min-height:23px;margin:7px 2px 0;color:#8a4f39;font-size:13px}.manage-actions{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-top:8px}.text-button{min-height:44px;padding:8px 10px;background:transparent;border:0;color:#718078;text-decoration:underline;text-underline-offset:3px;font-size:13px}.text-button.armed{color:#944c35;font-weight:750}.small-note{font-size:12px;color:var(--muted)}.privacy{margin-top:24px;text-align:left;padding:14px 16px;display:flex;align-items:flex-start;gap:10px;font-size:13px}.privacy b{color:var(--green-dark)}.share-wrap{display:flex;justify-content:center;margin-top:14px}.share-button{min-height:48px;min-width:180px;padding:10px 18px;border:1px solid #cbd9cb;border-radius:14px;background:#fffefa;color:var(--green-dark);font-weight:750}.share-button:hover{background:var(--mint)}.footer{text-align:center;color:#89938c;font-size:11px;margin-top:12px}
-    @media(max-width:560px){.shell{width:min(100% - 24px,460px);padding-top:16px}.topbar{align-items:flex-start;margin-bottom:15px}.brand{gap:9px}.brand-mark{width:40px;height:40px;border-radius:13px}.brand p{font-size:11px}.date-chip{padding:8px 10px;font-size:12px;margin-top:2px}.hero{border-radius:20px;padding:18px 17px;gap:10px;margin-bottom:17px}.hero-count{min-width:76px;width:76px;height:76px}.hero-count strong{font-size:22px}.section-title{margin-top:22px}.habit-card{padding:16px 14px;border-radius:18px}.stats{gap:5px}.stat{padding:8px 7px;border-radius:11px}.stat span{font-size:10px}.stat strong{font-size:16px}.calendar,.weekdays{gap:3px}.day{border-radius:8px;font-size:12px}.weekday{font-size:10px}.manage{grid-template-columns:minmax(0,1fr) auto;gap:7px}.primary-button{padding:9px 13px}.manage-actions{align-items:flex-start}.small-note{max-width:60%;text-align:right}}
+    .empty-state,.privacy{background:var(--paper);border:1px solid var(--line);border-radius:18px;padding:22px;text-align:center;color:var(--muted)}.empty-state strong{display:block;color:var(--ink);font-size:16px;margin-bottom:4px}.empty-state p{font-size:13px;margin:0}.manage{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:9px}.manage input{min-height:48px;min-width:0;border:1px solid #d9e1d8;border-radius:13px;padding:0 14px;background:#fffefa;color:var(--ink)}.primary-button{min-height:48px;padding:10px 18px;border:0;border-radius:13px;background:var(--green);color:white;font-weight:750}.primary-button:hover{background:var(--green-dark)}.message{min-height:23px;margin:7px 2px 0;color:#8a4f39;font-size:13px}.manage-actions{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-top:8px}.record-actions{display:flex;align-items:center;flex-wrap:wrap;gap:2px}.text-button{min-height:44px;padding:8px 10px;background:transparent;border:0;color:#718078;text-decoration:underline;text-underline-offset:3px;font-size:13px}.text-button.armed{color:#944c35;font-weight:750}.small-note{font-size:12px;color:var(--muted)}.privacy{margin-top:24px;text-align:left;padding:14px 16px;display:flex;align-items:flex-start;gap:10px;font-size:13px}.privacy b{color:var(--green-dark)}.share-wrap{display:flex;justify-content:center;margin-top:14px}.share-button{min-height:48px;min-width:180px;padding:10px 18px;border:1px solid #cbd9cb;border-radius:14px;background:#fffefa;color:var(--green-dark);font-weight:750}.share-button:hover{background:var(--mint)}.footer{text-align:center;color:#89938c;font-size:11px;margin-top:12px}
+    @media(max-width:560px){.shell{width:min(100% - 24px,460px);padding-top:16px}.topbar{align-items:flex-start;margin-bottom:15px}.brand{gap:9px}.brand-mark{width:40px;height:40px;border-radius:13px}.brand p{font-size:11px}.date-chip{padding:8px 10px;font-size:12px;margin-top:2px}.hero{border-radius:20px;padding:18px 17px;gap:10px;margin-bottom:17px}.hero-count{min-width:76px;width:76px;height:76px}.hero-count strong{font-size:22px}.section-title{margin-top:22px}.habit-card{padding:16px 14px;border-radius:18px}.stats{gap:5px}.stat{padding:8px 7px;border-radius:11px}.stat span{font-size:10px}.stat strong{font-size:16px}.calendar,.weekdays{gap:3px}.day{border-radius:8px;font-size:12px}.weekday{font-size:10px}.manage{grid-template-columns:minmax(0,1fr) auto;gap:7px}.primary-button{padding:9px 13px}.manage-actions{align-items:flex-start;flex-direction:column;gap:4px}.record-actions{width:100%;justify-content:space-between}.small-note{max-width:100%;text-align:left}}
     @media(max-width:360px){.brand p{max-width:160px}.date-chip{font-size:11px}.hero p{font-size:12px}.stats{grid-template-columns:repeat(2,minmax(0,1fr))}.calendar,.weekdays{gap:2px}}
   </style>
 </head>
@@ -45,7 +45,7 @@
       <div class="section-title"><div><h2 id="add-heading">습관 등록</h2><p>최대 6개까지 등록할 수 있어요.</p></div></div>
       <form class="manage" id="add-form"><label class="day-label" for="habit-input">새 습관 이름</label><input id="habit-input" type="text" maxlength="40" placeholder="예: 아침에 물 한 잔 마시기" autocomplete="off"><button class="primary-button" type="submit">추가하기</button></form>
       <p class="message" id="form-message" aria-live="polite"></p>
-      <div class="manage-actions"><button class="text-button" id="clear-button" type="button">전체 비우기</button><span class="small-note">이름은 40자까지, 같은 이름은 한 번만 등록돼요.</span></div>
+      <div class="manage-actions"><div class="record-actions"><button class="text-button" id="export-button" type="button">기록 내보내기</button><button class="text-button" id="import-button" type="button">기록 가져오기</button><input class="day-label" id="import-file" type="file" accept=".json,application/json"><button class="text-button" id="clear-button" type="button">전체 비우기</button></div><span class="small-note">기록 파일에는 습관 이름과 날짜가 들어 있어요. 안전하게 보관해 주세요.</span></div>
     </section>
 
     <aside class="privacy"><span aria-hidden="true">🔒</span><div><b>기록은 이 브라우저에만 저장돼요.</b><br>주소를 공유해도 다른 사람과 습관이나 기록이 섞이지 않습니다. 브라우저 데이터를 지우면 기록도 지워질 수 있어요.</div></aside>
@@ -105,6 +105,8 @@
       let today = todayInSeoul();
       let deleteArmed = new Map();
       let clearArmedUntil = 0;
+      let pendingImport = null;
+      let importArmedUntil = 0;
 
       function saveState() {
         try {
@@ -215,6 +217,9 @@
         $('#examples-button').textContent = full ? '습관이 가득 찼어요' : '예제 습관 불러오기';
         $('#clear-button').textContent = clearArmedUntil > Date.now() ? '한 번 더 눌러 전체 비우기' : '전체 비우기';
         $('#clear-button').classList.toggle('armed', clearArmedUntil > Date.now());
+        const importArmed = Boolean(pendingImport && importArmedUntil > Date.now());
+        $('#import-button').textContent = importArmed ? '한 번 더 눌러 가져오기' : '기록 가져오기';
+        $('#import-button').classList.toggle('armed', importArmed);
       }
       function toggleDate(id, date) {
         const habit = state.habits.find(h => h.id === id);
@@ -225,6 +230,79 @@
       function showFormMessage(message, good=false) {
         const el=$('#form-message'); el.textContent=message; el.style.color=good?'#2b6c57':'#8a4f39';
       }
+      // 저장 파일에는 습관과 날짜별 기록을 담습니다. 앱 코드나 다른 사용자의 기록은 담지 않습니다.
+      function isRealDate(value) {
+        if (typeof value !== 'string' || !/^\d{4}-\d{2}-\d{2}$/.test(value)) return false;
+        const [y,m,d] = value.split('-').map(Number);
+        const date = new Date(Date.UTC(y,m-1,d));
+        return date.getUTCFullYear() === y && date.getUTCMonth() === m-1 && date.getUTCDate() === d;
+      }
+      function validateBackup(data) {
+        if (!data || data.format !== '100day-habit-tracker' || data.version !== 1 || !Array.isArray(data.habits)) throw new Error('이 앱에서 만든 기록 파일이 아니거나 파일 형식을 읽을 수 없어요.');
+        if (data.habits.length > 6) throw new Error('기록 파일에 습관이 6개보다 많이 들어 있어요.');
+        const ids = new Set(), names = new Set();
+        const habits = data.habits.map(h => {
+          if (!h || typeof h.id !== 'string' || !h.id || ids.has(h.id)) throw new Error('기록 파일의 습관 정보가 올바르지 않아요.');
+          if (typeof h.name !== 'string' || !h.name.trim() || h.name.trim().length > 40) throw new Error('기록 파일에 이름이 비었거나 너무 긴 습관이 있어요.');
+          const name = h.name.trim(), nameKey = name.toLocaleLowerCase('ko-KR');
+          if (names.has(nameKey)) throw new Error('기록 파일에 이름이 같은 습관이 둘 이상 있어요.');
+          if (!isRealDate(h.created) || h.created > today) throw new Error('기록 파일에 습관을 만든 날짜가 올바르지 않아요.');
+          if (!h.checks || typeof h.checks !== 'object' || Array.isArray(h.checks)) throw new Error('기록 파일의 날짜별 체크 내용이 올바르지 않아요.');
+          const checks = {};
+          const dates = Object.keys(h.checks);
+          if (dates.length > 10000) throw new Error('한 습관의 기록 날짜가 너무 많아요.');
+          for (const date of dates) {
+            if (h.checks[date] !== true || !isRealDate(date) || date < h.created || date > today) throw new Error('기록 파일에 만든 날 이전 또는 미래의 체크가 있어요.');
+            checks[date] = true;
+          }
+          ids.add(h.id); names.add(nameKey);
+          return { id:h.id, name, created:h.created, checks };
+        });
+        return { habits };
+      }
+      function applyBackup(backup) {
+        const previous = state;
+        state = { habits: backup.habits.map(h => ({...h, checks:{...h.checks}})) };
+        if (!saveState()) { state = previous; render(); return false; }
+        pendingImport = null; importArmedUntil = 0; clearTimeout(window.importResetTimer);
+        render();
+        showFormMessage(`기록 ${state.habits.length}개를 이 브라우저에 가져왔어요.`, true);
+        return true;
+      }
+      $('#export-button').addEventListener('click', () => {
+        const backup = { format:'100day-habit-tracker', version:1, exportedAt:new Date().toISOString(), habits:state.habits };
+        const blob = new Blob([JSON.stringify(backup, null, 2)], {type:'application/json'});
+        const link = document.createElement('a');
+        link.href = URL.createObjectURL(blob);
+        link.download = `100일습관_기록_${today}.json`;
+        document.body.append(link); link.click(); link.remove();
+        setTimeout(() => URL.revokeObjectURL(link.href), 1000);
+        showFormMessage('기록 파일을 저장했어요. 파일을 안전한 곳에 보관해 주세요.', true);
+      });
+      $('#import-button').addEventListener('click', () => {
+        if (pendingImport && importArmedUntil > Date.now()) { applyBackup(pendingImport); return; }
+        $('#import-file').click();
+      });
+      $('#import-file').addEventListener('change', async event => {
+        const file = event.target.files && event.target.files[0];
+        event.target.value = '';
+        if (!file) return;
+        if (file.size > 1024 * 1024) { showFormMessage('기록 파일이 너무 커요. 1MB보다 작은 JSON 파일을 선택해 주세요.'); return; }
+        try {
+          const backup = validateBackup(JSON.parse(await file.text()));
+          if (state.habits.length === 0) {
+            applyBackup(backup);
+          } else {
+            pendingImport = backup; importArmedUntil = Date.now() + 6000;
+            clearTimeout(window.importResetTimer);
+            window.importResetTimer = setTimeout(() => { pendingImport = null; importArmedUntil = 0; render(); }, 6000);
+            render();
+            showFormMessage(`파일에서 습관 ${backup.habits.length}개를 확인했어요. 한 번 더 누르면 현재 ${state.habits.length}개 기록이 파일 내용으로 바뀝니다.`);
+          }
+        } catch (error) {
+          showFormMessage(error instanceof SyntaxError ? '파일 내용을 읽을 수 없어요. JSON 기록 파일을 선택해 주세요.' : error.message || '기록 파일을 가져오지 못했어요.');
+        }
+      });
       $('#add-form').addEventListener('submit', event => {
         event.preventDefault();
         const input=$('#habit-input'); const name=input.value.trim();
@@ -282,6 +360,9 @@
   </script>
 </body>
 </html>
+
+
+
 
 
 
